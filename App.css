@@ -1,0 +1,78 @@
+/* Container Styling */
+.container {
+  max-width: 400px;
+  margin: 50px auto;
+  text-align: center;
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Heading */
+h2 {
+  color: #333;
+  font-size: 24px;
+}
+
+/* Input Field */
+input {
+  padding: 8px;
+  margin-right: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 60%;
+}
+
+/* Buttons Styling */
+button {
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.add-btn {
+  background-color: #28a745;
+  color: white;
+}
+
+.complete-btn {
+  background-color: #007bff;
+  color: white;
+}
+
+.undo-btn {
+  background-color: #ffc107;
+  color: white;
+}
+
+.delete-btn {
+  background-color: #dc3545;
+  color: white;
+}
+
+/* Task List Styling */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.task-item {
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 5px;
+  margin: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Completed Task */
+.task-item.completed {
+  text-decoration: line-through;
+  color: gray;
+  background-color: #e9ecef;
+}
